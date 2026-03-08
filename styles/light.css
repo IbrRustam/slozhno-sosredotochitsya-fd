@@ -19,7 +19,8 @@
   --color-title-shadow: #ff8dcb;
   --color-text-link: #353430;
 }
-.page.theme-light .rec {
+
+.theme-light .rec {
   display: none;
 }
 
@@ -35,7 +36,7 @@
     --color-text-link: #353430;
   }
 
-  .page.theme-light .rec {
+  .theme-light .rec {
     display: none;
   }
 }

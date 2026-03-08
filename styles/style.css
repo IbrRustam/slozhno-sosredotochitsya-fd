@@ -1,7 +1,7 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  margin-block-start: 20px;
+  margin-block-start: 18px;
   font-family: var(--font-family-main);
   font-size: var(--font-size-main);
   background-color: var(--bg-color);
@@ -30,7 +30,7 @@
 .header {
   position: relative;
   grid-template-rows: 1fr min-content 1fr;
-  margin-block-start: -20px;
+  margin-block-start: -18px;
   margin-block-end: 60px;
 }
 
@@ -183,6 +183,10 @@
   margin-block: 0;
 }
 
+.content_concentration {
+  margin-block-end: 25px;
+}
+
 .content__heading-how-concentration {
   margin-block-start: -27px;
 }
@@ -220,13 +224,14 @@
 }
 /*******************gallery*******************/
 .gallery {
-  margin-block-end: 15px;
+  margin-block-end: 41px;
 }
 
 .gallery__list {
   display: block;
   gap: 10px;
   padding-inline-start: 0;
+  margin-block-start: 10px;
 }
 
 .gallery__image {
@@ -238,7 +243,7 @@
 
 .footer {
   justify-content: center;
-  align-content: center;
+  align-content: center;  
 }
 
 .footer__title {
