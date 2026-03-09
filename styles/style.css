@@ -29,7 +29,9 @@
 .header {
   position: relative;
   grid-template-rows: 1fr min-content 1fr;
-  margin-inline: 9px;
+  margin-inline-start: 10px;
+  margin-inline-end: 8px;
+  margin-block-start: 1px;
   margin-block-end: 60px;
 }
 
@@ -38,14 +40,14 @@
   justify-self: end;
   align-self: center;
   margin-inline-end: 10px;
-  margin-block-start: 10px;
+  margin-block-start: 6px;
 }
 
 .header__theme-menu-list {
   display: grid;
   grid-auto-flow: row;
   justify-self: end;
-  gap: 7px;
+  gap: 8px;
   padding-inline: 0;
   line-height: 26px;
 }
@@ -94,7 +96,8 @@
   grid-row: 3;
   justify-self: end;
   align-self: center;
-  margin-block-end: 10px;
+  margin-inline-end: 2px;
+  margin-block-end: 14px;
   font-weight: 700;
   line-height: 23.4px;
   white-space: pre-line;
@@ -154,7 +157,7 @@
 .content {
   display: grid;
   grid-template-columns: 1fr;
-  margin-inline: 8px;
+  margin-inline-start: 8px;
   margin-block-start: -20px;
   margin-block-end: 45px;
   line-height: 23.4px;
@@ -162,7 +165,8 @@
 
 .content__heading {
   --font-weight: 700;
-  margin-block-start: -2px;
+  margin-inline-start: 2px;
+  margin-block-start: -1px;
   margin-block-end: 2px;
   color: var(--decorated-color);
   font-family: var(--font-family-main);
@@ -177,6 +181,9 @@
 
 .content__card-list {
   gap: 10px;
+  margin-inline-start: -3px;
+  margin-inline-end: 10px;
+  margin-block-start: -2px;
   margin-block-end: 7px;
   padding-inline: 5px;
   font-size: inherit;
@@ -192,11 +199,11 @@
 }
 
 .content__heading-how-concentration {
-  margin-block-start: -27px;
+  margin-block-start: -25px;
 }
 
 .title-decor_normal {
-  margin-block-start: 18px;
+  margin-block-start: 20px;
   font-weight: var(--font-weight-normal);
 }
 
@@ -229,6 +236,7 @@
 /*******************gallery*******************/
 .gallery {
   margin-inline: 9px;
+  margin-block-start: -2px;
   margin-block-end: 10px;
 }
 
@@ -255,7 +263,7 @@
 }
 
 .footer__title {
-  margin-block-start: 1px;
+  margin-block-start: 5px;
   text-shadow: 2px 2px 0 var(--color-title-shadow);
 }
 /*********************media**************/
