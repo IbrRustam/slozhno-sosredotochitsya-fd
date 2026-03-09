@@ -310,7 +310,7 @@
   .content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-inline: 20px;
+    margin-inline-start: 20px;
     margin-block-start: 60px;
     margin-block-end: 45px;
     line-height: 23.4px;
@@ -323,8 +323,9 @@
   .content__card-list {
     grid-column: span 2;
     gap: 1px;
-    margin-inline-start: 10px;
-    margin-block-start: -1px;
+    margin-inline-start: 2px;
+    margin-inline-end: 14px;
+    margin-block-start: -2px;
     margin-block-end: 0;
     font-size: inherit;
     list-style-type: none;
@@ -335,6 +336,7 @@
     grid-auto-flow: row;
     grid-column: span 3;
     margin-inline-start: 0;
+    margin-inline-end: 20px;
     margin-block-start: 15px;
     padding-inline: 0;
   }
@@ -394,7 +396,7 @@
   }
 
   .footer__title {
-    margin-block-start: 95px;
+    margin-block-start: 102px;
   }
 }
 
@@ -433,20 +435,38 @@
     inline-size: clamp(491px, calc(100% / 2 - 10px), 600px);
   }
 
+  .content {
+    margin-inline-start: 18px;
+    margin-block-start: 50px;
+  }
+
   .content__card-list {
-    margin-inline-start: 0;
+    margin-inline-start: -2px;
+  }
+
+  .content__heading-alternate {
+    margin-block-start: 10px;
   }
 
   .content__card-list-alternate {
     display: grid;
     grid-auto-flow: column;
-    gap: 20px;
-    margin-block-start: 18px;
-    padding-inline: 0;
+    gap: 10px;
+    margin-inline-start: 2px;
+    margin-block-start: 15px;
+  }
+
+  .card_type_food {
+    margin-inline-start: 10px;
+    margin-block-start: 5px;
+  }
+
+  .card_type_gadjets {
+    margin-block-start: 5px;
   }
 
   .content_concentration {
-    margin-block-start: -5px;
+    margin-block-start: 60px;
     margin-block-end: 38px;
   }
 
