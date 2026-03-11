@@ -17,9 +17,15 @@
   --decorated-color: #ff0070;
   --color-text: #f1b2ce;
   --color-title-shadow: #ff0070;
-  --color-text-link: #353430;
+  --color-text-link: #f1b2ce;
 }
 
 .theme-dark .rec {
-  display: block;
+  --rec-display: block;
+}
+
+@media (prefers-color-scheme: dark) {
+  .theme-auto .rec {
+    --rec-display: block;
+  }
 }

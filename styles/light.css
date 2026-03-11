@@ -21,7 +21,7 @@
 }
 
 .theme-light .rec {
-  display: none;
+  display: var(--rec-display);
 }
 
 @media (prefers-color-scheme: light) {
@@ -37,6 +37,6 @@
   }
 
   .theme-light .rec {
-    display: none;
+    display: var(--rec-display);
   }
 }
