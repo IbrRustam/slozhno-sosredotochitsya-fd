@@ -14,8 +14,9 @@
   --color-title: #db00ff;
   --accent-color: #ff0070;
   --decorated-color: #ff0070;
+  --decorated-color-hover: rgba(255, 0, 112, 0.4);
   --color-title-shadow: #ff0070;
   --color-text: #f1b2ce;
   --color-text-link: #f1b2ce;
-  --rec-display: none;
+  --rec-display: block;
 }

@@ -15,9 +15,11 @@
   --color-title: #ffc2e6;
   --accent-color: #ff8dcb;
   --decorated-color: #353430;
+  --decorated-color-hover: rgba(50, 49, 45, 0.4);
   --color-text: #353430;
   --color-title-shadow: #ff8dcb;
   --color-text-link: #353430;
+  --rec-display: none;
 }
 
 .theme-light .rec {
@@ -32,11 +34,13 @@
     --color-title: #ffc2e6;
     --accent-color: #ff8dcb;
     --decorated-color: #353430;
+    --decorated-color-hover: rgba(50, 49, 45, 0.4);
     --color-text: #353430;
     --color-text-link: #353430;
+    --rec-display: none;
   }
 
-  .theme-light .rec {
+  .rec {
     display: var(--rec-display);
   }
 }
